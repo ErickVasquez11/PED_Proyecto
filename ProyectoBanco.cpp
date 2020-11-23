@@ -339,7 +339,7 @@ void consultacuenta_clientes(){
                 case 1: cout<<"\n\n\t Ingrese dinero a la cuenta $";
                         cin>>extra;
                         q->aperturadinero += extra;
-                        cout << " Dinero en cuenta: "<< q->aperturadinero;
+                        cout << " Dinero en cuenta $"<< q->aperturadinero;
                         cout<<"\n\n\t Registro Actualizado...!!!!!\n";
                        
                 break;
@@ -350,7 +350,7 @@ void consultacuenta_clientes(){
                         }
                         else{
                             q->aperturadinero -= retiro;
-                            cout << " Dinero en cuenta: " << q->aperturadinero;
+                            cout << " Dinero en cuenta $" << q->aperturadinero;
                         }
                         cout<<"\n\n\t Registro Actualizado...!!!!!\n";
                         
@@ -447,7 +447,7 @@ void consultacuenta_clientesseguro(){
 void mostrarremesa(queue<Rem>remesas){
 
     queue <Rem> clone=remesas;
-    cout<<"**** ticket de retiro de remesa ****"<<endl;
+    cout<<"[----- ticket de retiro de remesa -----]"<<endl;
 
      while(!clone.empty()){
          cout<<"Nombre: ";
@@ -467,7 +467,7 @@ void llenaremesas(queue <Rem> &remesa){
     bool continuar= true;
     if(continuar){
 
-    cout<<"**** Retiro de remesas ****"<<endl;
+    cout<<"[----- Retiro de remesas -----]"<<endl;
     cout<<"ingrese datos: "<<endl;
         Rem remesas;
         cout<<"Nombre: ";
