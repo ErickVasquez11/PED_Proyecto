@@ -1,4 +1,4 @@
-#include<iostream>
+aster#include<iostream>
 #include<cstdlib>
 #include<string.h>
 #include<queue>
@@ -352,7 +352,7 @@ void consultacuenta_clientes(){
                             q->aperturadinero -= retiro;
                             cout << " Dinero en cuenta $" << q->aperturadinero;
                         }
-                        cout<<"\n\n\t Registro Actualizado...!!!!!\n";
+                        cout<<"\n\n\t Registro Actualizado....!!!!\n";
                         
                 break;
                 case 3: cout<< "Su Saldo actual es $" << q->aperturadinero;
