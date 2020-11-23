@@ -1,4 +1,4 @@
-aster#include<iostream>
+#include<iostream>
 #include<cstdlib>
 #include<string.h>
 #include<queue>
@@ -326,7 +326,7 @@ void consultacuenta_clientes(){
                 cout<<"\t  Saldo Actual $"<<q->aperturadinero<<endl;
 
                 cout<<"\n\t\t[    Actualizar Saldo Cuenta   ]\n";
-                cout<<"\t\t-------------------------------------------\n\n";
+                cout<<"\t\t----------------------------------------\n\n";
                 cout<<" 1. Ingresar dinero en cuenta                      "<<endl;
                 cout<<" 2. Retirar dinero de la cuenta                    "<<endl;
                 cout<<" 3. Saldo                                            "<<endl;
