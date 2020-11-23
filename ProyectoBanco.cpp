@@ -64,7 +64,7 @@ void mostrar_clientesSeguro();
 void consultacuenta_clientes();
 void consultacuenta_clientesseguro();
 
-/*----------------- CREACION DE PUNTEROS GLOBALES ----------------------- */
+/*------------------- CREACION DE PUNTEROS GLOBALES ----------------------- */
 PLista *lista;
 SeguroLista *listaseguro;
 queue<Rem>remesa;
