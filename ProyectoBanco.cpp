@@ -592,6 +592,7 @@ int main(){
     break;
 
     case 6: continuar = false;
+        cout<< " Fin del Programa......";
     }
     }while(continuar);
     return 0;
