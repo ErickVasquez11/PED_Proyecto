@@ -459,6 +459,7 @@ void mostrarremesa(queue<Rem>remesas){
         cout<<"retiro $";
         cout<<clone.front().retiro<< endl;
       clone.pop();
+      cout<<endl;
      }
 }
 
@@ -477,7 +478,7 @@ void llenaremesas(queue <Rem> &remesa){
         cin.getline(remesas.apellidos,maxchar);
         cout<<"Dui: ";
         cin>> remesas.Dui;
-        cout<<"Cantidad a retirar:$ ";
+        cout<<"Cantidad a retirar $ ";
         cin>>remesas.retiro; 
         remesa.push(remesas);
         cout<<endl;
